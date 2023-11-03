@@ -36,8 +36,8 @@
 
 Если у вас есть вопросы или предложения, не стесняйтесь связаться со мной:
 
--   Электронная почта: ваша_почта@example.com
--   LinkedIn: [Ваше имя](ссылка на профиль LinkedIn)
--   GitHub: [Ваш никнейм](ссылка на профиль GitHub)
+-   Электронная почта: murzackulovb@gmail.com
+-   Instargram: [murzackulov](https://www.instagram.com/murzackulov/)
+-   GitHub: [murzackul0v](https://github.com/murzackul0v)
 
 Благодарим за посещение моего портфолио! Надеюсь, вам понравится мой проект.
