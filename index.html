@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer portofolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <!-- Header nav -->
+              <div class="header-nav">
+                  <a href="./404.html" class="logo">Murzackulov</a>
+                  <nav id="nav" class="nav">
+                      <ul class="nav-list">
+                          <li class="nav-item"><a href="#header" class="nav-link active">Home</a></li>
+                          <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+                          <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
+                          <li class="nav-item"><a href="./404.html" class="nav-link">О нас</a></li>
+                          <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+                      </ul>
+                      <button id="nav-btn" class="nav-button">
+                          <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="Nav button">
+                      </button>
+                  </nav>
+              </div>
+            <!-- Header content -->
+            <div class="header-row" id="header">
+                <div class="header-content" data-aos="fade-up">
+                    <h1 class="header-heading">Murzackulov Beksultan<br> <span class="name">Front-End Developer</span></h1>
+                    <p>Привет! Я Beksultan, я креативный Front-end разработчик с глубоким интересом к веб-технологиям и с уникальным взгляду на дизайн и пользовательским опытом.</p>
+                </div>
+
+                <div class="header-img" data-aos="fade-left">
+
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./img/user.jpg">
+                        <img src="./img/user.jpg" alt="" class="user">
+                    </picture>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services" id="skills">
+        <div class="container">
+            <div class="services-row">
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/devellop.png" alt="UI/UX Design">
+                    <h3 class="service-card-title">Development</h3>
+                    <p>"Development" (разработка) - это процесс создания, улучшения и оптимизации программного обеспечения, веб-сайтов, приложений или других технологических продуктов.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/fend.png" alt="UI/UX Design">
+                    <h3 class="service-card-title">Sowtware</h3>
+                    <p>
+                      "Software" (программное обеспечение) - это набор инструкций и данных, которые позволяют компьютеру выполнять определенные задачи или функции.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/software.png" alt="UI/UX Design">
+                    <h3 class="service-card-title">ООП</h3>
+                    <p>ООП, или Объектно-Ориентированное Программирование, это методология программирования, основанная на концепции объектов.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                  <img class="service-card-img" src="./img/html.png" alt="UI/UX Design">
+                  <img class="service-card-img" src="./img/css.png" alt="UI/UX Design">
+                  <h3 class="service-card-title">HTML / CSS</h3>
+                  <p>С помощью HTML определяются элементы, такие как заголовки, параграфы, ссылки, изображения и другие элементы контента на веб-странице.</p>
+              </div>
+
+              <div class="service-card" data-aos="fade-down">
+                <img class="service-card-img" src="./img/js.png" alt="UI/UX Design">
+                <h3 class="service-card-title">JavaScript</h3>
+                <p>JS используется для создания динамических элементов на веб-страницах, взаимодействия с пользователем, отправки запросов на сервер и многих других функций.</p>
+            </div>
+
+            <div class="service-card" data-aos="fade-down">
+              <img class="service-card-img" src="./img/react.png" alt="UI/UX Design">
+              <h3 class="service-card-title">React</h3>
+              <p>React - это библиотека JavaScript для разработки пользовательских интерфейсов. Спроектированная Facebook, она позволяет создавать веб-приложения.</p>
+          </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="portfolio" id="projects">
+        <div class="container">
+            <div class="portfolio-title">
+                <h2 class="title-1">Проекты</h2>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/pro1.jpg" alt="Online fashion store" class="project-img">
+                <h3 class="project-title"><a href="./404.html">Street Style</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/pro2.jpg" alt="Reebok Store" class="project-img">
+                <h3 class="project-title"><a href="./404.html">SpaceX</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/pro3.jpg" alt="Braun Landing Page" class="project-img">
+                <h3 class="project-title"><a href="./404.html">Mazda</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+              <img src="./img/pro4.jpg" alt="Braun Landing Page" class="project-img">
+              <h3 class="project-title"><a href="./404.html">IndoTourIlsm</a></h3>
+          </div>
+
+        </div>
+    </section>
+
+    <footer class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-title">
+                <h2 class="title-1">Contacts</h2>
+            </div>
+            <div class="contacts-content" data-aos="fade-down">
+            </div>
+            <div class="contacts-button" data-aos="fade-down">
+                <a href="./404.html" class="btn">Send message</a>
+            </div>
+            <div class="contacts-social" data-aos="zoom-in">
+                <a href="https://www.linkedin.com/in/beksultan-murzackulov-a48551270/"><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/murzackulov/"><img src="./img/socials/Instargam.svg" alt="Instargam"></a>
+                <a href="https://github.com/murzackul0v"><img src="./img/github.png" alt="Behance" width="50"></a>
+                <a href="https://t.me/murzackylov"><img src="./img/tele.png" alt="Telegram" width="50"></a>
+            </div>
+            <div class="contacts-footer" data-aos="fade-up">
+                <p>By<br> Murzackulov Beksultan</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
